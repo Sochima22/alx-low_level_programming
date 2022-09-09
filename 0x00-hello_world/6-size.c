@@ -1,4 +1,4 @@
-#include <stdio>
+#include<stdio>
 /**
  * main - print the size of various types
  * Description:print the size of various types on the computerit is compiled
