@@ -5,19 +5,10 @@
  * Return:Always 0 (success)
  */
 int main(void)
-{int ch;
-for
-	(ch = 'a';
-	 ch <= 'z';
-	 ch++);
-{
-	putchar(ch);
-	putchar('\n'); }
-for
-	(ch = 'A';
-	 ch <= 'Z';
-	 ch++);
-putchar('\n');
-putchar('\n');
-return (0);
-}
+{char ch;
+	if
+((ch >= 'a' && ch <= 'z') || (ch >= 'A' &&
+			ch <= 'Z'));
+			putchar(ch);
+			putchar('\n');
+			return (0); }
