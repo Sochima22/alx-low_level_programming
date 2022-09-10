@@ -5,16 +5,13 @@
  * Return:Always 0 (success)
  */
 int main(void)
-{int ch;
-	for
-		(ch >= 'a';
-		 ch = 'z';
-		 ch++);
-	{putchar(ch); }
-	for
-		(ch >= 'A';
-		 ch = 'Z';
-		 ch++);
-	{putchar(ch); }
+{int x = 65;
+int y = 97;
+	while (y >= 97 && y <= 122)
+	{putchar(y);
+		y++; }
+	while (x >= 65 && x <= 90)
+	{putchar(x);
+		x++; }
 	putchar('\n');
 	return (0); }
