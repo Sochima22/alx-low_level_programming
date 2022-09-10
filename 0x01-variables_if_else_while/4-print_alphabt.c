@@ -10,6 +10,5 @@ int main(void)
 	{if
 		(x == 'e' || x == 'q')
 		{continue; }
-		putchar(x);
-	putchar('\n'); }
+		putchar((x) + '\n'); }
 	return (0); }
