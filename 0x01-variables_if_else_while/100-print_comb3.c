@@ -9,7 +9,7 @@ int main(void)
 	for (ch = 0; ch <= 99; ch++)
 	{putchar((ch / 10) + '0');
 		putchar((ch % 10) + '0');
-		if (ch == 9)
+		if (ch != 9)
 			continue;
 		putchar(',');
 		putchar(' '); }
