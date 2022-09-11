@@ -10,7 +10,7 @@ char x;
 while (y >= 0 && y <= 9)
 {putchar(y);
 	y++; }
-	for (x >= 'a'; x = 'f'; x++)
+	while (x >= 0x61 && y <= 0x62)
 {putchar(x); }
 putchar('\n');
 return (0); }
