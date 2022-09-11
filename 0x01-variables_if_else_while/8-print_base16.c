@@ -10,7 +10,8 @@ char x = 0x61;
 while (y >= 0x30 && y <= 0x39)
 {putchar(y);
 	y++; }
-	while (x >= 0x61 && y <= 0x62)
-{putchar(x); }
-putchar('\n');
-return (0); }
+	while (x >= 0x61 && y <= 0x66)
+{putchar(x);
+	x++; }
+	putchar('\n');
+	return (0); }
