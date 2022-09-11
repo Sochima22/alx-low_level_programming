@@ -5,13 +5,12 @@
  * Return:Always 0 (success)
  */
 int main(void)
-{int y = 0x0;
-int x = 0x0A;
-	while (y >= 0x0 && y <= 0x9)
-	{putchar(y);
-		y++; }
-	while (x >= 0x0A && x <= 0x0F)
-	{putchar(x);
-		x++; }
-	putchar('\n');
-	return (0); }
+{int y = 0;
+char x;
+while (y >= 0 && y <= 9)
+{putchar(y);
+	y++; }
+	for (x >= 'a'; x = 'f'; x++)
+{putchar(x); }
+putchar('\n');
+return (0); }
