@@ -10,7 +10,7 @@ int main(void)
 {int n;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	while
+	if
 		(n != 0)
 		{printf("Last digit of %d is 0 and is 0\n", n); }
 	if
