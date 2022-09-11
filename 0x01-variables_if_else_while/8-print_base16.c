@@ -6,7 +6,7 @@
  */
 int main(void)
 {int y = 0;
-char x;
+char x = 0x61;
 while (y >= 0 && y <= 9)
 {putchar(y);
 	y++; }
