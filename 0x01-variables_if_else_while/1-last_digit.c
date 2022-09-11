@@ -11,10 +11,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if
-		(n < 6)
-		{printf("Last digit of %d is -8 and is less than 6 and not 0\n", n); }
+(n == 0)
+{printf("Last digit of %d is 0 and is 0\n", n); }
 	else
-		if
-			(n == 0)
-			{printf("Last digit of %d is 0 and is 0\n", n); }
-	return (0); }
+	if
+(n < 6)
+{printf("Last digit of %d is - 8 and is less than 6 and not 0\n", n); }
+return (0); }
