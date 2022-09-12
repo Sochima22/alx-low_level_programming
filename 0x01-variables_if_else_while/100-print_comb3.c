@@ -1,17 +1,20 @@
 #include<stdio.h>
 /**
-* main-entry point*
-* Description: print 0 to 10 in new line*
-* Return:Always 0 (success)
-*/
+ * main-main entry*
+ * Description: i dont know*
+ * Return:Always 0 (success)
+ */
 int main(void)
-{ int ch;
-	for (ch = 0; ch <= 99; ch++)
-	{putchar((ch / 10) + '0');
-		putchar((ch % 10) + '0');
-		if (ch != 9)
-			continue;
-		putchar(',');
-		putchar(' '); }
-	putchar('\n');
-	return (0); }
+{int a, b;
+	for (a = 0; a < 9; a++)
+	{
+		for (b = a + 1; b < 10; b++)
+		{
+			if (a != b)
+			{putchar(a + '0');
+				putchar(b + '0');
+				if (a + b < 17)
+				{putchar(',');
+					putchar(' '); }}}}}
+					putchar('\n');
+					return (0); }
