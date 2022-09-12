@@ -18,6 +18,6 @@ int main(void)
 					putchar(c + '0');
 					if (a + b + c < 24)
 					{putchar(',');
-						putchar(','); }}}}}
+						putchar(' '); }}}}}
 	putchar('\n');
 	return (0); }
