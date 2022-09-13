@@ -1,17 +1,21 @@
 #include<stdio.h>
 #include"main.h"
 /**
-*print_alphabet- Main entry*
+*print_alphabet_x10- Main entry*
 *Description: funtions prototypes*
 *Return: Always 0 (success)
 */
-void print_alphabet(void)
-{int c,
-	int i;
+void print_alphabet_x10(void)
+{char ch;
+	int = 0;
 
-	for (i = 0;
-			i <= 10
-			i++)
-		for (c = 'a'; c <= 'z'; c++)
-		{_putchar(c); }
-	_putchar('\n'); }}
+	while (i < 10)
+	{
+		ch = 'a';
+		while (ch <= 'z')
+		{
+			_putchar(ch);
+			ch++;
+		}
+		_putchar('\n');
+		i++; }}
