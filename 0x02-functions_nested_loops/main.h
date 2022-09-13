@@ -1,2 +1,2 @@
-int _putchar(char h)
+int _putchar(char c int h)
 {return(0); }
