@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<unistd.h>
 #include"main.h"
 /**
 *print_to_98-print all matural nu,bers fron n to 98*
