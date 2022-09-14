@@ -21,7 +21,7 @@ void print_to_98(int n)
 		(n >= 98)
 		{
 			{
-				if (j != 98)
+				if (int j != 98)
 				_putchar(j);
 else if
 	(j == 98) _putchar(j); }}}
