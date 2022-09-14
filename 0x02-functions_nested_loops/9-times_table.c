@@ -3,7 +3,7 @@
 *time_table-prints the ninth times table*
 *description:i dont know*
 */
-void time_table(void)
+void times_table(void)
 {int i, j, k;
 
 for
