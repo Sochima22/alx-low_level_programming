@@ -17,7 +17,7 @@ for
 		 j > 48;
 		 j++);
 	{
-		k = j * 1;
+		k = j * i;
 		if (j == 0)
 		{_putchar(k + '0'); }
 		if (k <= 9 && j != 0)
