@@ -1,4 +1,3 @@
-#include<stdio.h>
 #include"main.h"
 /**
 *time_table-prints the ninth times table*
