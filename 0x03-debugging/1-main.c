@@ -16,7 +16,7 @@ int main(void)
 	while (i < 10)
 	{
 		putchar(i);
-		//missing i++
+		/*updating i value is missing*/
 	}
 
 	printf("infinite loop avoided! \\o/\n");
