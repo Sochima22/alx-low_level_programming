@@ -18,7 +18,7 @@ int main(void)
 		 i <= 50;
 		 ++i);
 	{
-		if (j != 20365011074)
+		if (j <= 20365011074)
 		{
 			printf("%ld, ", j); }
 		next = j + k;
