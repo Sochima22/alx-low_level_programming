@@ -1,8 +1,10 @@
 #include<stdio.h>
+
 /**
 *main-causes an infinite loop*
 *Return: 0
 */
+
 int main(void)
 {
 	int i;
@@ -13,9 +15,10 @@ int main(void)
 
 	while (i < 10)
 	{
-		putchar(i);//missing i value update
+		putchar(i);
+		//missing i value update comment
 	}
 
 	printf("infinite loop avoided! \\o/\n");
 
-	retun (0);
+	return (0);
