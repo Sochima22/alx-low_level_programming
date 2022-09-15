@@ -13,12 +13,8 @@ int main(void)
 
 	i = 0;
 
+	putchar(i);
 	
-	{
-	  putchar(i);//missing i value update
-	
-	}
-
 printf("infinite loop avoided! \\o/\n");
 
-	return (0); }
+return (0); }
