@@ -20,7 +20,7 @@ int main(void)
 	{
 		if (j != 20365011074)
 		{
-			printf("%ld\n", j); }
+			printf("%ld, ", j); }
 		next = j + k;
 		j = k;
 		k = next; }
