@@ -13,8 +13,12 @@ int main(void)
 
 	i = 0;
 
-	putchar(i);
-	
-printf("infinite loop avoided! \\o/\n");
+	while (i < 10)
+	{
+		putchar(i);/*missin i value update*/
+	}
 
-return (0); }
+	printf("infinite loop avoided! \\o/\n");
+
+ 	return (0);
+}
