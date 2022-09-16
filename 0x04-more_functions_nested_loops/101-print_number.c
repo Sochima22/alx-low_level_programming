@@ -1,20 +1,19 @@
 #include"main.h"
 /**
-*main- print integers*
-*description: to print integers*
-*Return:0
+*print_number- print integers*
+*@n:number to print
 */
-int main(void)
+void print_number(int n)
 {
-	print_number(98);
-	_putchar('\n');
-	print_number(402);
-	_putchar('\n');
-	print_number(1024);
-	_putchar('\n');
-	print_number(0);
-	_putchar('\n');
-	print_number(-98);
-	_putchar('\n');
-	return (0);
-}
+	unsigned int num = n;
+
+	if (n < 0)
+	{
+		_putchar(' ');
+		num = -num;
+	}
+	if (num > 9)
+	{
+		_putchar((num / 10) + '0');
+	}
+	_putchar((num % 10) + '0'); }
