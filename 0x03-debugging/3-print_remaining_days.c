@@ -1,4 +1,4 @@
-#include<studio>
+#include<stdio>
 #include"main.h"
 /**
 *print_remaining_days-takes a daye and print how many days are
