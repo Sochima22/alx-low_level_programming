@@ -1,11 +1,11 @@
 #include"main.h"
 /**
-*mul-multiplea two numbers*
+*mul-multiples two numbers*
 *@a:first number*
 *@b:second number*
-Return:returnms result
+Return:returns result
 */
 int mul(int a,int b)
 {
-	retun(a * b);
+	return(a * b);
 }
