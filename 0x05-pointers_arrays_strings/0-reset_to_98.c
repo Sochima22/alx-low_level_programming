@@ -8,13 +8,14 @@
 */
 void reset_to_98(int *n)
 {
-	*n =408;
-	int c;
+	int c = 98;
 	int *p;
 
 	p = &c;
-	c = 98;
 
 	reset_to_98(p);
-	putchar((*n / 10) + '0');
-	putchar((*n % 10) + '0'); }
+
+	if (*n > 10)
+	{
+		_putchar((*n / 10) + '0');
+		_putchar((*n % 10) + '0');}}
