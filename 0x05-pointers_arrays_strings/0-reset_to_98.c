@@ -13,6 +13,6 @@ void reset_to_98(int *n)
 
 	c = 98;
 	p = &c;
-	printf("%d",0, *n);
+	printf("%d", *n);
 	reset_to_98(p);
-	printf("%d",0, *n); }
+	printf("%d", *n); }
