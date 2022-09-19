@@ -2,10 +2,13 @@
 #include"main.h"
 /**
 *_strlen-print the length of a string*
-*@*s:parameter to print*
-*Return:0
+*@s:parameter to print*
+*Return:length
 */
 int _strlen(char *s)
 {
-	printf("%d", *s);
-	return (0); }
+	int x = 0;
+
+	while (*s++)
+		x++;
+	return (x); }
