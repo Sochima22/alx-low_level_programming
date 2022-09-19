@@ -9,13 +9,11 @@
 void reset_to_98(int *n)
 {
 	int c = 98;
-	int *p;
+	int* p;
 
 	p = &c;
 
+	printf("%d\n", *n);
 	reset_to_98(p);
 
-	if (*n > 10)
-	{
-		_putchar((*n / 10) + '0');
-		_putchar((*n % 10) + '0');}}
+	printf("%d\n", *n); }
