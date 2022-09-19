@@ -8,7 +8,8 @@
 */
 void swap_int(int *a, int *b)
 {
-	*a = *b;
-	if (*b == *a)
-		printf("%d", *a);
-}
+	if (*a = *b)
+	printf("%d", *a);
+		else 
+		{printf("%d", *b);
+		}}
