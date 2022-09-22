@@ -1,11 +1,11 @@
 #include<stdio.h>
 #include"main.h"
 /**
-**_strncat-copy strings
+**_strncat-concatenate two strings
 *@dest:destination pointer
 *@src:source pointer
 *@n:number of characters to copy
-*Return:returns characters
+*Return:returns dest
 */
 char *_strncat(char *dest, char *src, int n)
 {
