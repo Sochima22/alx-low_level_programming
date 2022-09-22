@@ -8,11 +8,6 @@
 */
 char *_strcat(char *dest, char *src)
 {
-	len1 = strlen(*dest);
-	len2 = strlen(*sec);
-	for (*src = 0; src <= len1; src++)
-	{
-		len2 = (len1 + *src);
-	}
-	_putchar(len2); }
-
+	*_strcat(*dest, *src);
+	return (*dest);
+}
