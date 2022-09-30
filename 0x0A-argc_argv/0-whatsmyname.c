@@ -6,13 +6,7 @@
 *@argv:the array of the file
 *Return:void
 */
-void main(int argc, char *argv[])    /* command line Arguments */
+int main(int argc, char *argv[])    /* command line Arguments */
 {
-	int i;
-
-	for (i = 0; i < argc; i++)
-	{
-		printf("%s ", argv[i]);        /* Printing the string */
-	}
-	printf("\n");
-}
+	printf("%s\n ", argv[0]);        /* Printing the string */
+return (0); }
