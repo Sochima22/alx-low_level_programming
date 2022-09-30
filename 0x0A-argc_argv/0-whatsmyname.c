@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include"main.h"
+void print_string(char *str);
 /**
 *main-prints the name of the file
 *@argc:argument of the file
