@@ -1,2 +1,4 @@
-int main(int argc, char *argv[]);
-int args(int argc, char *argv[]);
+#ifndef MAIN_H
+#define MAIN_H
+int _putchar(char c);
+#endif
