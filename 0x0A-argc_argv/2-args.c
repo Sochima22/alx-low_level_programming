@@ -2,12 +2,12 @@
 #include"main.h"
 void print_array_element(char *str);
 /**
-*args-prints all arguments
+*main-prints all arguments
 *@argc:contains the total number of parameters
 *@argv:string array pointer containing all parameters
 *Return:0 if successful
 */
-int args(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int counter;
 
