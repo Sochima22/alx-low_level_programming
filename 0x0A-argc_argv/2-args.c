@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include"main.h"
+void print_array_element(char *str);
 /**
 *args-prints all arguments
 *@argc:contains the total number of parameters
@@ -11,6 +12,26 @@ int args(int argc, char *argv[])
 	int counter;
 
 	for (counter = 0; counter < argc; counter++)
-		printf("argv[%2d]: %s\n", counter, argv[counter]);
-	return (0);
+	{
+		print_array_element(argv[counter]);
+		_putchar('\n');
+	}
+		return (0);
+}
+/**
+*print_array_element-Prints all char of a string
+*
+*@str:Pointer to string
+*
+*Return:void
+*/
+void print_array_element(char *str)
+{
+	int i = 0;
+
+	while (str[i] != '\0')
+	{
+		_putchar(str[i]);
+		i++;
+	}
 }
