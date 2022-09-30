@@ -17,16 +17,16 @@ int main(int argc, char *argv[])
 		for (j = 0; argv[i][j]; j++)
 		{
 			if (isdigit(argv[i][j]) == 0)
-					{
-					puts("Error");
-					return (1);
-					}
-					}
-					}
-					for (i = 0; i < argc; i++)
-					{
-					a += atoi(argv[i]);
-					}
-					printf("%d\n", a);
-					return (0);
-					}
+			{
+				puts("Error");
+				return (1);
+			}
+		}
+	}
+	for (i = 0; i < argc; i++)
+	{
+		a += atoi(argv[i]);
+	}
+	printf("%d\n", a);
+	return (0);
+}
