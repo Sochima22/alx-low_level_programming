@@ -42,7 +42,6 @@ int _atoi(char *s)
 	while (s[0] != '\0')
 	{
 		if (s[0] == '-')
-
 			sign_cache *= -1;
 		else if (s[0] >= '0' && s[0] <= '9')
 			result = (result * 10) +  (s[0] - '0');
@@ -78,7 +77,7 @@ void print_number(int n)
 {
 	unsigned int n1 = n;
 
-	if (n < 1)
+	if (n < 0)
 	{
 		_putchar('-');
 		n1 = -n;
@@ -89,5 +88,5 @@ void print_number(int n)
 		print_number(n1 / 10);
 	}
 
-	_putchar((n % 10) + '0');
+	_putchar((n1 % 10) + '0');
 }
