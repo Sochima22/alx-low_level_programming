@@ -4,7 +4,7 @@
 *@h: Pointer to list or first node in list
 *Return: Number of elements in list
 */
-size_t list_len(const listint_t *h)
+size_t listint_len(const listint_t *h)
 {        
 	size_t x;
 
