@@ -3,7 +3,7 @@
 
 #include <stddef.h>
 #include <stdio.h>
-
+#include <string.h>
 #ifdef DEBUG /*prints debug statements*/
 #endif
 int _length(unsigned long int n);
