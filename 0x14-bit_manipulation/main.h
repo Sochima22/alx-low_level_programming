@@ -6,6 +6,7 @@
 #include <string.h>
 #ifdef DEBUG /*prints debug statements*/
 #endif
+int main(void);
 int _length(unsigned long int n);
 void debug_3(unsigned long int mask);
 void debug_2(unsigned long int n, unsigned long int mask);
